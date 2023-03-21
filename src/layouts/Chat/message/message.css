@@ -1,0 +1,84 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.messageTop {
+    display: flex;
+}
+
+.messageImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-right: 14px;
+}
+.messageText {
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #1877f2;
+    color: white;
+    max-width: 300;
+}
+
+.messageBottom {
+    font-size: 12px;
+}
+.message.own {
+    align-items: flex-end;
+}
+.message.own .messageText {
+    background-color: lightgreen;
+    color: black;
+}
+.offer-Box-Own {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #3b5796;
+    color: rgb(255, 255, 255);
+    width: 140px;
+}
+
+.offer-Box {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #3b5796;
+    color: rgb(255, 255, 255);
+    max-width: 160px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.react-scroll-to-bottom--css-jwpgl-1tj0vk3 {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 0px !important;
+    border-width: 0;
+    bottom: 5px;
+    cursor: pointer;
+    height: 20px;
+    outline: 0;
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    border: solid black !important;
+    border-width: 0 3px 3px 0 !important;
+    display: inline-block !important;
+    padding: 3px !important;
+    transform: rotate(45deg) !important;
+    -webkit-transform: rotate(45deg) !important;
+}
+.react-scroll-to-bottom--css-jwpgl-1tj0vk3:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
